@@ -1,6 +1,7 @@
 ## Early Breast Cancer Detection with Liquid Neural Networks (LNN)
 
 This repository contains the implementation of a early breast cancer detection model using Liquid Neural Networks (LNNs) with Neural Circuit Policies (NCPs). The model processes ultrasound breast images from the BreastMNIST dataset to classify them as benign or malignant.
+This model objectives is not just detecting the cancer classification but also doing it with great computational efficiancy with reduced parameter count by leveraging the concept of LLNs.
 
 ### Repository Contents
 - **LNN_BreastMnist_Classification.ipynb**: Jupyter Notebook for training the LNN model on the BreastMNIST dataset.
