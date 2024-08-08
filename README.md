@@ -29,15 +29,16 @@ pip install torch torchvision tqdm medmnist matplotlib seaborn scikit-learn open
 
 ## Steps to Run the Program
 
-1. **Clone the repository**:
+1. __Clone the repository__:
     ```bash
     git clone https://github.com/2ai-lab/LLNs-for-Early-Breast-Cancer-Detection
     ```
 
-2. **Install the required packages**:
+2. __Install the required packages__:
     ```bash
     pip install torch torchvision tqdm medmnist matplotlib seaborn scikit-learn opencv-python ncps
     ```
+3. __Create a folder__ named `saved_models`, this should be in same directory along with the `models.py` and `LNN_BreastMnist_Classification.ipynb`. The trained model will be saved in the saved_models folder.
     
-3. **Run the training script**:
+3. __Run the training script__:
    Open the Jupyter Notebook `LNN_BreastMnist_Classification.ipynb` and run the cells to train the model and it will train the model on the BreastMNIST dataset. Make sure you have the `models.py` and `LNN_BreastMnist_Classification.ipynb` in the same directory. 
